@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: center;
+
+    min-width: 375px;
+}
+.profile-header{
+    margin-top: 40px;
+    background: var(--dark-blue);
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.profile-container{
+    display: flex;
+    height: auto;
+    width: 335px;
+    align-items: center;
+    background: var(--blue);
+    border-radius:20px;
+    padding: 15px 0;
+}
+.image-jeremy{
+    height: 65px;
+    width: 65px;
+    border-radius: 150px;
+    border: 3px solid white;
+    margin-left: 26px;
+}
+.text-container{
+    margin-left: 15px;
+}
+.info{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 30px;
+    color: var(--pale-blue);
+    font-weight: 400;
+}
+.name{
+    margin-top: 1px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size :25px;
+}
+.profile-content{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+.weekly{
+    color: var(--pale-blue);
+}
