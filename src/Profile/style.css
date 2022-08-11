@@ -1,24 +1,18 @@
-.header{
-    display: flex;
-    justify-content: center;
-
-    min-width: 375px;
-}
 .profile-header{
-    margin-top: 40px;
     background: var(--dark-blue);
     overflow: hidden;
     border-radius: 20px;
-    
+    width: 100%;
 }
 .profile-container{
     display: flex;
     height: auto;
-    width: 335px;
+    width: 100%;
     align-items: center;
     background: var(--blue);
     border-radius:20px;
     padding: 15px 0;
+
 }
 .image-jeremy{
     height: 65px;
@@ -51,4 +45,42 @@
 }
 .weekly{
     color: var(--pale-blue);
+    
+}
+.weekly:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.daily{
+    color: var(--pale-blue);
+}
+.daily:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.monthly{
+    color: var(--pale-blue);
+}
+.monthly:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+    .profile-container{
+        padding: 25px 0;
+    }
+    .info{
+        font-size: 14px;
+    }
+    .name{
+        font-size: 34px;
+    }
+    .text-container{
+        padding: 10px 15px ;
+    }
+    .profile-content{
+        padding: 30px;
+        align-items: flex-start;
+    }
 }
